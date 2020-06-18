@@ -1,0 +1,3 @@
+rootProject.name = 'UdemyJavaMultiThreading'
+
+include 'Task01'
