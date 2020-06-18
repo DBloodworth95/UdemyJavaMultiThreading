@@ -1,7 +1,7 @@
 package Task01;
 
 public class BasicThreadCreation {
-    //Example of a basic thread.
+    //Example of a basic thread using Runnable();
     public static void main(String[] args) {
         //Declaring the thread which takes a Runnable() as an arg.
         Thread thread = new Thread(new Runnable() {
