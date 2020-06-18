@@ -10,13 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c208d602-b66d-4e60-9b87-6f28b656c2d8" name="Default Changelist" comment="Section 2, Part 2 - Creating a simple thread using inheritance.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task01/PasswordHackers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="c208d602-b66d-4e60-9b87-6f28b656c2d8" name="Default Changelist" comment="Section 2, Final part - Creating a simple program to demonstrate multiple threads being utilized.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task01/MultiExecuter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task01/BasicThreadCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task01/BasicThreadCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task01/ThreadInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task01/ThreadInheritance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592480457627</updated>
-      <workItem from="1592480462682" duration="6641000" />
+      <workItem from="1592480462682" duration="7931000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1592481175137</created>
@@ -137,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592484227787</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Section 2, Final part - Creating a simple program to demonstrate multiple threads being utilized.">
+      <created>1592517547156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592517547157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,28 +161,29 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="Section 2, Part 1 - Creating a simple thread." />
     <MESSAGE value="Section 2, Part 2 - Creating a simple thread using inheritance." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 2, Part 2 - Creating a simple thread using inheritance." />
+    <MESSAGE value="Section 2, Final part - Creating a simple program to demonstrate multiple threads being utilized." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 2, Final part - Creating a simple program to demonstrate multiple threads being utilized." />
   </component>
   <component name="WindowStateProjectService">
     <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1592516339941">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592516339941" />
-    <state width="1802" height="636" key="GridCell.Tab.0.bottom" timestamp="1592516663406">
+    <state width="1802" height="470" key="GridCell.Tab.0.bottom" timestamp="1592517549171">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="636" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592516663406" />
-    <state width="1802" height="636" key="GridCell.Tab.0.center" timestamp="1592516663406">
+    <state width="1802" height="470" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592517549171" />
+    <state width="1802" height="470" key="GridCell.Tab.0.center" timestamp="1592517549171">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="636" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592516663406" />
-    <state width="1802" height="636" key="GridCell.Tab.0.left" timestamp="1592516663406">
+    <state width="1802" height="470" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592517549171" />
+    <state width="1802" height="470" key="GridCell.Tab.0.left" timestamp="1592517549171">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="636" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592516663406" />
-    <state width="1802" height="636" key="GridCell.Tab.0.right" timestamp="1592516663406">
+    <state width="1802" height="470" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592517549171" />
+    <state width="1802" height="470" key="GridCell.Tab.0.right" timestamp="1592517549171">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="636" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592516663406" />
+    <state width="1802" height="470" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592517549171" />
   </component>
 </project>
