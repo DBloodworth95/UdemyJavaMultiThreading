@@ -1,4 +1,4 @@
-package Task01;
+package task01;
 
 public class ThreadInheritance {
     //Creating a thread using java.lang.Thread directly.

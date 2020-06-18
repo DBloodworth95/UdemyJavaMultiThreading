@@ -1,4 +1,4 @@
-package Task01;
+package task01;
 
 public class BasicThreadCreation {
     //Example of a basic thread using Runnable();
