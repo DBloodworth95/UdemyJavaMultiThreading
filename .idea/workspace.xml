@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c208d602-b66d-4e60-9b87-6f28b656c2d8" name="Default Changelist" comment="Section 3, part 1 - Thread interrupting example 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task02/InterruptingBigTask.java" afterDir="false" />
+    <list default="true" id="c208d602-b66d-4e60-9b87-6f28b656c2d8" name="Default Changelist" comment="Section 3, part 2 - Thread interrupting example 2.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task02/JoiningThreads.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +52,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterruptingBigTask">
-    <configuration name="BasicThreadCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task01.BasicThreadCreation" />
+  <component name="RunManager" selected="Application.JoiningThreads">
+    <configuration name="InterruptingBigTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task02.InterruptingBigTask" />
       <module name="UdemyJavaMultiThreading.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task01.*" />
+          <option name="PATTERN" value="task02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptingBigTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task02.InterruptingBigTask" />
+    <configuration name="JoiningThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task02.JoiningThreads" />
       <module name="UdemyJavaMultiThreading.main" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoiningThreads" />
         <item itemvalue="Application.InterruptingBigTask" />
         <item itemvalue="Application.ThreadInterrupt" />
         <item itemvalue="Application.PasswordHackers" />
         <item itemvalue="Application.ThreadInheritance" />
-        <item itemvalue="Application.BasicThreadCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592480457627</updated>
       <workItem from="1592480462682" duration="9554000" />
-      <workItem from="1592565525499" duration="3183000" />
+      <workItem from="1592565525499" duration="6352000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1592481175137</created>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592570259965</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Section 3, part 2 - Thread interrupting example 2.">
+      <created>1592571143412</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592571143412</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,29 +215,30 @@
     <MESSAGE value="Section 2, Final part - Creating a simple program to demonstrate multiple threads being utilized." />
     <MESSAGE value="Section 2, Final part (Coding exercise) - Creating a simple program to demonstrate multiple tasks being executed concurrently." />
     <MESSAGE value="Section 3, part 1 - Thread interrupting example 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 3, part 1 - Thread interrupting example 1." />
+    <MESSAGE value="Section 3, part 2 - Thread interrupting example 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 3, part 2 - Thread interrupting example 2." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1592570470762">
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1592574059358">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592570470762" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1592570790344">
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592574059358" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1592574890205">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592570790344" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1592570790344">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592574890205" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1592574890205">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592570790344" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1592570790343">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592574890205" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1592574890205">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592570790343" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1592570790344">
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592574890205" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1592574890205">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592570790344" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592574890205" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1592570209049">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
