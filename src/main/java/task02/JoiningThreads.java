@@ -34,7 +34,7 @@ public class JoiningThreads {
 
         for (int i = 0; i < inputNumbers.size(); i ++) {
             FactorialThread factorialThread = threads.get(i);
-            if (factorialThread.isFinished) {
+            if (factorialThread.isFinished()) {
                 System.out.println("Factorial of " + inputNumbers.get(i) + " is " + factorialThread.getResult());
             } else {
                 System.out.println("Number: " + inputNumbers.get(i) + " is still in progress");
