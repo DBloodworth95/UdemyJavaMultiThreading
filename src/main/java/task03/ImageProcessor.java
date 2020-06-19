@@ -39,7 +39,7 @@ public class ImageProcessor {
         ImageIO.write(resultImage, "jpg", outputFile);
 
         System.out.println(duration);
-    };
+    }
 
     public static void recolourMultiThreaded(BufferedImage originalImage, BufferedImage resultImage, int numberOfThreads) {
         List<Thread> threads = new ArrayList<>();
