@@ -17,7 +17,7 @@ import java.util.List;
  */
 
 public class ImageProcessor {
-    public static final String SOURCE_FILE = "./image/many-flowers.jpg";
+    public static final String SOURCE_FILE = "./resource/task03/imageprocessor/many-flowers.jpg";
     public static final String DESTINATION_FILE = "./out/many-flowers.jpg";
 
     public static void main(String[] args) throws IOException {

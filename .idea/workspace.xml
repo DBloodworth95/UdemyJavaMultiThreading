@@ -10,12 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c208d602-b66d-4e60-9b87-6f28b656c2d8" name="Default Changelist" comment="Section 3, part 3 - Joining threads, fixed thread finishing check.">
-      <change afterPath="$PROJECT_DIR$/image/many-flowers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task03/ImageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="c208d602-b66d-4e60-9b87-6f28b656c2d8" name="Default Changelist" comment="Section 4, part 1 - Multi-Threaded image processor to optimize processing latency.">
+      <change afterPath="$PROJECT_DIR$/resource/task03/httpserver/performance_test_plan.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/task03/httpserver/search_words.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/task03/httpserver/war_and_peace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task03/com/httpserver/MyHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/many-flowers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/task03/imageprocessor/many-flowers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task03/ImageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task03/ImageProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +51,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource/task03/httpserver" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource/task03" />
+      <recent name="$PROJECT_DIR$/resource" />
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource/task03/httpserver" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ImageProcessor">
+  <component name="RunManager" selected="Application.MyHttpServer">
     <configuration name="ImageProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task03.ImageProcessor" />
       <module name="UdemyJavaMultiThreading.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task03.*" />
+          <option name="PATTERN" value="task03.com.httpserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordHackers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task01.PasswordHackers" />
+    <configuration name="MyHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task03.com.httpserver.MyHttpServer" />
       <module name="UdemyJavaMultiThreading.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task01.*" />
+          <option name="PATTERN" value="task03.com.httpserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHttpServer" />
         <item itemvalue="Application.ImageProcessor" />
         <item itemvalue="Application.JoiningThreads" />
         <item itemvalue="Application.InterruptingBigTask" />
         <item itemvalue="Application.ThreadInterrupt" />
-        <item itemvalue="Application.PasswordHackers" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +156,9 @@
       <option name="presentableId" value="Default" />
       <updated>1592480457627</updated>
       <workItem from="1592480462682" duration="9554000" />
-      <workItem from="1592565525499" duration="13114000" />
+      <workItem from="1592565525499" duration="15479000" />
+      <workItem from="1592603039877" duration="1000000" />
+      <workItem from="1592660636024" duration="4067000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1592481175137</created>
@@ -212,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592576581484</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Section 4, part 1 - Multi-Threaded image processor to optimize processing latency.">
+      <created>1592588486266</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592588486266</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Section 4, part 1 - Multi-Threaded image processor to optimize processing latency.">
+      <created>1592588550929</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592588550929</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,29 +265,34 @@
     <MESSAGE value="Section 3, part 2 - Thread interrupting example 2." />
     <MESSAGE value="Section 3, part 3 - Joining threads." />
     <MESSAGE value="Section 3, part 3 - Joining threads, fixed thread finishing check." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 3, part 3 - Joining threads, fixed thread finishing check." />
+    <MESSAGE value="Section 4, part 1 - Multi-Threaded image processor to optimize processing latency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 4, part 1 - Multi-Threaded image processor to optimize processing latency." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1592574059358">
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1592688437211">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592574059358" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1592588276921">
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592688437211" />
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1592689538125">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592588276921" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1592588276920">
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592689538125" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1592690166154">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592588276920" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1592588276920">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592690166154" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1592690166154">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592588276920" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1592588276920">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592690166154" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1592690166154">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592588276920" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592690166154" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1592690166154">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592690166154" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1592588032546">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -279,5 +309,9 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592588032546" />
+    <state x="305" y="144" width="1372" height="825" key="new project wizard" timestamp="1592601905834">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="305" y="144" width="1372" height="825" key="new project wizard/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592601905834" />
   </component>
 </project>
