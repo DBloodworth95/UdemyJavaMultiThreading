@@ -14,8 +14,8 @@ package task04;
 public class SynchronizedExample {
     public static void main(String[] args) throws InterruptedException {
         SynchronizedObject synchronizedObject = new SynchronizedObject();
-        Thread thread1 = new ObjectDecrementer(synchronizedObject);
-        Thread thread2 = new ObjectIncrementer(synchronizedObject);
+        ObjectDecrementer thread1 = new ObjectDecrementer(synchronizedObject);
+        ObjectIncrementer thread2 = new ObjectIncrementer(synchronizedObject);
 
         thread1.start();
         thread2.start();
