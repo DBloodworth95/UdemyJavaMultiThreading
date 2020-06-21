@@ -28,7 +28,7 @@ public class SynchronizedExample {
     private static class SynchronizedObject {
 
         private int items = 0;
-
+        //Immutable object as monitor to guarantee thread safety.
         final Object lock = new Object();
 
         public SynchronizedObject() {

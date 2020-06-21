@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c208d602-b66d-4e60-9b87-6f28b656c2d8" name="Default Changelist" comment="Section 4, part 2 - Http Server with Optimized throughput.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task04/SynchronizedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c208d602-b66d-4e60-9b87-6f28b656c2d8" name="Default Changelist" comment="Section 5, part 1 - Synchronized example.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/task04/SynchronizedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task04/SynchronizedExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <workItem from="1592603039877" duration="1000000" />
       <workItem from="1592660636024" duration="5492000" />
       <workItem from="1592696914397" duration="17000" />
-      <workItem from="1592750178271" duration="1339000" />
+      <workItem from="1592750178271" duration="2094000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1592481175137</created>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592691952459</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Section 5, part 1 - Synchronized example.">
+      <created>1592751532670</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592751532670</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +276,8 @@
     <MESSAGE value="Section 3, part 3 - Joining threads, fixed thread finishing check." />
     <MESSAGE value="Section 4, part 1 - Multi-Threaded image processor to optimize processing latency." />
     <MESSAGE value="Section 4, part 2 - Http Server with Optimized throughput." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 4, part 2 - Http Server with Optimized throughput." />
+    <MESSAGE value="Section 5, part 1 - Synchronized example." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 5, part 1 - Synchronized example." />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1592688437211">
@@ -281,22 +288,22 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592750666096" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1592751356028">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1592751745320">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592751356028" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1592751356028">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592751745320" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1592751745320">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592751356028" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1592751356028">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592751745320" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1592751745320">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592751356028" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1592751356028">
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592751745320" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1592751745320">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592751356028" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1592751745320" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1592588032546">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
