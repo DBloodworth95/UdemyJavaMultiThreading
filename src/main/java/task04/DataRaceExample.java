@@ -13,6 +13,7 @@ import java.util.concurrent.atomic.AtomicReference;
     * A solution to this problem is giving the variables a "volatile" declaration.
     * This allows the variables to be read & written across threads and also keeps the
     * code execution in the correct order.
+    * Alternatively, AtomicInteger can also be used but it is more expensive.
  */
 public class DataRaceExample {
     public static void main(String[] args) {
