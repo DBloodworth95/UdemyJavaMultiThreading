@@ -1,4 +1,8 @@
 package task04;
+
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
+
 /*
     * A short example of a data race solution.
     * SharedClass contains an increment method which increments x and y.
@@ -27,18 +31,19 @@ public class DataRaceExample {
     }
 
     private static class SharedClass {
-        private volatile int x = 0;
+        private AtomicInteger x = new AtomicInteger(0);
 
-        private volatile int y = 0;
+        private AtomicInteger y = new AtomicInteger(0);
 
         private void increment() {
-            x++;
-            y++;
+            x.incrementAndGet();
+            y.incrementAndGet();
         }
 
         private void checkForGreater() {
-            if (y > x)
+            if (y.get() > x.get())
                 System.out.println("y > x - Data race detected");
+
         }
     }
 
